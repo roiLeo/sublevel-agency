@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-sans: 'Instrument Sans', system-ui, sans-serif;
+  --font-display: 'Big Shoulders Display', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+/* Sublevel palette mapped onto Nuxt UI semantic tokens */
+:root, .dark {
+  --ui-primary: #ff4d1f;
+  --ui-bg: #0b0b0a;
+  --ui-bg-muted: #141413;
+  --ui-bg-elevated: #161614;
+  --ui-bg-accented: #1f1f1d;
+  --ui-text: #ecebe4;
+  --ui-text-highlighted: #ecebe4;
+  --ui-text-toned: #b9b7ad;
+  --ui-text-muted: #8f8d84;
+  --ui-text-dimmed: #6c6a63;
+  --ui-text-inverted: #0b0b0a;
+  --ui-border: #2a2a27;
+  --ui-border-muted: #2a2a27;
+  --ui-border-accented: #3a3a36;
+  --ui-radius: 0.125rem;
+  --header-h: 76px;
+}
+
+body { -webkit-font-smoothing: antialiased; }
